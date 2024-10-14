@@ -147,3 +147,82 @@ nav {
     width: 200px;
   }
 }
+
+.explore-films {
+  & h1 {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 55px;
+    color: #111111;
+  }
+
+  & ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  & .images {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+
+    & img {
+      width: 350px;
+      height: 350px;
+    }
+  }
+}
+
+.services {
+  & h1 {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 40px;
+    color: #111111;
+  }
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: 350px;
+
+  & .top {
+    background-color: #330031;
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+  }
+
+  & .middle {
+    margin-inline: 20px;
+    line-height: 50px;
+    background-color: #ffffff;
+  }
+
+  & .low {
+    background-color: #330031;
+    color: #fff;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+  }
+}
+
+footer {
+  background-color: #330031;
+  height: 500px;
+}
