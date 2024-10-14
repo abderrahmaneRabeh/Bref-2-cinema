@@ -118,3 +118,32 @@ nav {
     }
   }
 }
+
+/* list of films */
+
+.films {
+  margin-top: 120px;
+  margin-inline: 3%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 90px;
+
+  & button {
+    background-color: var(--black);
+    color: var(--white);
+    width: 200px;
+    height: 50px;
+    border-radius: 35px;
+    margin-top: 30px;
+  }
+
+  & .img {
+    height: 350px;
+  }
+
+  & img {
+    height: 100%;
+    width: 200px;
+  }
+}
