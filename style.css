@@ -297,7 +297,6 @@ footer {
 }
 
 /* scroll bar setting  */
-
 ::-webkit-scrollbar {
   width: 12px;
 }
