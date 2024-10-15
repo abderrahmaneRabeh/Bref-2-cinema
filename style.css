@@ -224,5 +224,74 @@ nav {
 
 footer {
   background-color: #330031;
-  height: 500px;
+  color: var(--white);
+
+  & .up {
+    padding-top: 80px;
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+
+    & h4 {
+      font-size: 22px;
+      color: #fff;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    & .icons {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      & i {
+        margin-right: 10px;
+      }
+    }
+
+    & .sponsors {
+      & p {
+        margin-bottom: 20px;
+      }
+    }
+
+    & .company {
+      display: flex;
+      gap: 30px;
+
+      & div {
+        padding-inline: 20px;
+      }
+
+      & p {
+        margin-bottom: 50px;
+      }
+    }
+  }
+
+  & .down {
+    text-align: center;
+    line-height: 30px;
+  }
+}
+
+.icons,
+.sponsors,
+.company {
+  margin-top: 30px;
+  padding-block: 30px;
+}
+.border-r {
+  margin-top: 30px;
+  border-right: 2px solid #fff;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+
+  & img {
+    width: 24px;
+    height: 24px;
+  }
 }
