@@ -295,3 +295,17 @@ footer {
     height: 24px;
   }
 }
+
+/* scroll bar setting  */
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #330031;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
