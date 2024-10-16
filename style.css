@@ -33,6 +33,12 @@ nav {
   & a {
     text-decoration: none;
     color: var(--black);
+    transition: 0.4s;
+
+    &:hover {
+      color: #ca26ff;
+      scale: 1.1;
+    }
   }
 
   & .search {
@@ -104,6 +110,14 @@ nav {
       height: 50px;
       border-radius: 35px;
       margin-top: 30px;
+      transition: 0.4s;
+
+      &:hover {
+        scale: 0.98;
+        background-color: #ca26ff;
+        color: #000;
+        cursor: pointer;
+      }
     }
   }
 
@@ -211,6 +225,10 @@ nav {
     margin-inline: 20px;
     line-height: 50px;
     background-color: #ffffff;
+
+    & span {
+      margin-left: 30px;
+    }
   }
 
   & .low {
@@ -307,4 +325,31 @@ footer {
 
 ::-webkit-scrollbar-track {
   background-color: #f1f1f1;
+}
+
+/* text line */
+
+.line-text {
+  display: flex;
+  align-items: center;
+  /* margin: 20px 0; */
+}
+
+.line-text span {
+  font-size: 24px;
+  letter-spacing: 3px;
+  margin: 0 10px;
+}
+
+.line-text::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: black;
+}
+.line-text::before {
+  content: "";
+  height: 1px;
+  width: 80px;
+  background: black;
 }
