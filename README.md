@@ -11,7 +11,7 @@ Site web pour un cinéma, transformant des maquettes Figma en pages web fonction
 ## Liens
 - Lien vers l'hébergement [Live Demo](https://bref-2-cinema.vercel.app/)
   
-- Lien vers présenation [Présentation](#https://docs.google.com/presentation/d/11s6KtEa11fMLIj7wL9AZq6NUPHQdq3la/edit?usp=sharing&ouid=107995880260964261928&rtpof=true&sd=true)
+- Lien vers présenation [Présentation](https://docs.google.com/presentation/d/11s6KtEa11fMLIj7wL9AZq6NUPHQdq3la/edit?usp=sharing&ouid=107995880260964261928&rtpof=true&sd=true)
 
 ## Créé par
 - Abderrahmane Rabeh
