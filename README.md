@@ -9,7 +9,7 @@ Site web pour un cinéma, transformant des maquettes Figma en pages web fonction
 - Formulaire de contact fonctionnel.
 
 ## Liens
-- Lien vers l'hebergement [Live Demo](#)
+Lien vers l'hébergement [Live Demo](https://bref-2-cinema.vercel.app/)
   
 - Lien vers présenation [Présentation](#)
 
