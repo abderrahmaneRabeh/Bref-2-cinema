@@ -150,6 +150,13 @@ nav {
     height: 50px;
     border-radius: 35px;
     margin-top: 30px;
+
+    transition: 0.4s;
+
+    &:hover {
+      scale: 0.98;
+      cursor: pointer;
+    }
   }
 
   & .img {
@@ -177,6 +184,16 @@ nav {
     gap: 30px;
     justify-content: center;
     margin-top: 20px;
+
+    & li {
+      box-shadow: inset 0 -2px 0 transparent;
+      cursor: pointer;
+      transition: box-shadow 0.4s;
+      padding-bottom: 3px;
+      &:hover {
+        box-shadow: inset 0 -3px 0 #933c24;
+      }
+    }
   }
 
   & .images {
@@ -189,6 +206,12 @@ nav {
     & img {
       width: 350px;
       height: 350px;
+      transition: 0.3s;
+
+      &:hover {
+        cursor: pointer;
+        scale: 0.96;
+      }
     }
   }
 }
@@ -212,6 +235,12 @@ nav {
 
 .card {
   width: 350px;
+  transition: 0.3s;
+
+  &:hover {
+    cursor: pointer;
+    scale: 0.96;
+  }
 
   & .top {
     background-color: #330031;
