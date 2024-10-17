@@ -150,6 +150,7 @@ nav {
     height: 50px;
     border-radius: 35px;
     margin-top: 30px;
+    letter-spacing: 3px;
 
     transition: 0.4s;
 
@@ -385,9 +386,23 @@ footer {
 
 /* media query */
 
+@media (width < 1000px) {
+  .hero {
+    justify-content: start;
+
+    & .right {
+      display: none;
+    }
+  }
+
+  .images {
+    text-align: center;
+  }
+}
+
 @media (width < 900px) {
   .nav {
-    margin-inline: 0;
+    margin-inline: 5px;
 
     & .links {
       gap: 1rem;
@@ -398,16 +413,34 @@ footer {
     & .up {
       display: block;
 
-      & .icons {
-        text-align: center;
+      & .company {
+        justify-content: center;
       }
     }
   }
 }
+@media (width < 700px) {
+  .hero {
+    & .left {
+      & h2 {
+        font-size: 30px;
+      }
+    }
+  }
+}
+
 @media (width < 600px) {
   .nav {
     .search {
       display: none;
+    }
+  }
+
+  .hero {
+    & .left {
+      & p {
+        width: 400px;
+      }
     }
   }
 }

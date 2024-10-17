@@ -93,3 +93,16 @@
 footer {
   margin-top: 60px !important;
 }
+
+@media (width < 900px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right {
+    margin-top: 0 !important;
+  }
+}
