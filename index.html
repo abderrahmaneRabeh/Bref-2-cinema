@@ -52,7 +52,7 @@
     </header>
 
     <section>
-      <article class="films">
+      <div class="films">
         <div class="film">
           <div>
             <div class="img"><img src="./images/smile.png" alt="" /></div>
@@ -85,7 +85,7 @@
             <button>YOU</button>
           </div>
         </div>
-      </article>
+      </div>
 
       <div class="line-text" style="margin-top: 100px">
         <span>Movies</span>
@@ -126,7 +126,7 @@
       </article>
     </section>
 
-    <section class="explore-films" style="margin-top: 50px">
+    <!-- <section class="explore-films" style="margin-top: 50px">
       <h1>Explore More</h1>
       <ul>
         <li>
@@ -166,12 +166,42 @@
           <img src="./images/walking.png" alt="walking" />
         </div>
       </div>
+    </section> -->
+
+    <section class="explore-films" style="margin-top: 50px">
+      <h1>Explore More</h1>
+      <div class="images">
+        <input type="radio" name="filter" id="action" />
+        <label for="action">Action</label>
+        <input type="radio" name="filter" id="horror" />
+        <label for="horror">Horror</label>
+        <input type="radio" name="filter" id="romance" />
+        <label for="romance">Romance</label>
+        <input type="radio" name="filter" id="comedy" />
+        <label for="comedy">Comedy</label>
+        <input type="radio" name="filter" id="thriller" />
+        <label for="thriller">Thriller</label>
+        <input type="radio" name="filter" id="fantasy" />
+        <label for="fantasy">Fantasy</label>
+
+        <div style="margin-bottom: 40px"></div>
+        <div class="image-action">
+          <img src="./images/tenet.png" alt="tenel" />
+          <img src="./images/plane.png" alt="plane" />
+          <img src="./images/dune.png" alt="dune" />
+        </div>
+        <div class="image-horror">
+          <img src="./images/madmax.png" alt="madmax" />
+          <img src="./images/blade.png" alt="blade" />
+          <img src="./images/walking.png" alt="walking" />
+        </div>
+      </div>
     </section>
 
     <section class="services" style="margin-top: 50px">
       <h1>SERVICES</h1>
       <div class="wrapper">
-        <article class="card">
+        <div class="card">
           <div class="top">basic</div>
           <div class="middle">
             <p>Watch all you want. Ad-free.</p>
@@ -182,8 +212,8 @@
             <p>Monthly price <span>MAD65</span></p>
           </div>
           <div class="low">buy</div>
-        </article>
-        <article class="card">
+        </div>
+        <div class="card">
           <div class="top">standard</div>
           <div class="middle">
             <p>Watch all you want. Ad-free.</p>
@@ -194,8 +224,8 @@
             <p>Monthly price <span>MAD65</span></p>
           </div>
           <div class="low">buy</div>
-        </article>
-        <article class="card">
+        </div>
+        <div class="card">
           <div class="top">premium</div>
           <div class="middle">
             <p>Watch all you want. Ad-free.</p>
@@ -206,7 +236,7 @@
             <p>Monthly price <span>MAD65</span></p>
           </div>
           <div class="low">buy</div>
-        </article>
+        </div>
       </div>
     </section>
 

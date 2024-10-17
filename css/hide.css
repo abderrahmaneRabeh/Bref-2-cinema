@@ -1,15 +1,3 @@
-/* input[type="radio"] {
-  display: none;
-}
-
-input[type="radio"]:checked + label {
-  border-bottom: #933c24 3px solid;
-}
-
-input[type="radio"][id="action"]:checked ~ .Action {
-  display: none;
-} */
-
 input[type="radio"] {
   display: none;
 }
@@ -22,6 +10,6 @@ input[type="radio"][id="action"]:checked ~ .image-horror {
   display: none;
 }
 
-input[type="radio"]#horror:checked ~ .image-action {
+input[type="radio"][id="horror"]:checked ~ .image-action {
   display: none;
 }
