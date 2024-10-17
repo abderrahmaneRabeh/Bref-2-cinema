@@ -130,38 +130,41 @@
       <h1>Explore More</h1>
       <ul>
         <li>
-          <label for="1">Action</label>
-          <input type="radio" name="1" hidden id="1" />
+          <input type="radio" name="filter" id="action" />
+          <label for="action">Action</label>
         </li>
         <li>
-          <label for="2">Horror</label>
-          <input type="radio" name="2" hidden id="2" />
+          <input type="radio" name="filter" id="horror" />
+          <label for="horror">Horror</label>
         </li>
         <li>
+          <input type="radio" name="filter" id="3" />
           <label for="3">Romance</label>
-          <input type="radio" name="3" hidden id="3" />
         </li>
         <li>
+          <input type="radio" name="filter" id="4" />
           <label for="4">Comedy</label>
-          <input type="radio" name="4" hidden id="4" />
         </li>
         <li>
+          <input type="radio" name="filter" id="5" />
           <label for="5">Thriller</label>
-          <input type="radio" name="5" hidden id="5" />
         </li>
         <li>
+          <input type="radio" name="filter" id="6" />
           <label for="6">Fantasy</label>
-          <input type="radio" name="6" hidden id="6" />
         </li>
       </ul>
       <div class="images">
-        <img src="./images/tenet.png" alt="tenel" />
-        <img src="./images/plane.png" alt="" />
-        <img src="./images/madmax.png" alt="" />
-
-        <img src="./images/blade.png" alt="tenel" />
-        <img src="./images/dune.png" alt="" />
-        <img src="./images/walking.png" alt="" />
+        <div class="image-action">
+          <img src="./images/tenet.png" alt="tenel" />
+          <img src="./images/plane.png" alt="plane" />
+          <img src="./images/dune.png" alt="dune" />
+        </div>
+        <div class="image-horror">
+          <img src="./images/madmax.png" alt="madmax" />
+          <img src="./images/blade.png" alt="blade" />
+          <img src="./images/walking.png" alt="walking" />
+        </div>
       </div>
     </section>
 
@@ -215,10 +218,10 @@
             <h4>social media links</h4>
           </div>
           <div class="icons">
-            <div style="text-align: left; padding-bottom: 50px">
+            <div class="txt-responsive" style="padding-bottom: 50px">
               <i class="fa-brands fa-github"></i><span>Youcode SAFI @2024</span>
             </div>
-            <div style="text-align: left">
+            <div class="txt-responsive">
               <i class="fa-brands fa-linkedin-in"></i><span>CodeShogun</span>
             </div>
           </div>

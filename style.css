@@ -199,9 +199,9 @@ nav {
   & .images {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 5px;
     margin-top: 30px;
-    flex-wrap: wrap;
 
     & img {
       width: 350px;
@@ -381,4 +381,33 @@ footer {
   height: 1px;
   width: 80px;
   background: black;
+}
+
+/* media query */
+
+@media (width < 900px) {
+  .nav {
+    margin-inline: 0;
+
+    & .links {
+      gap: 1rem;
+    }
+  }
+
+  footer {
+    & .up {
+      display: block;
+
+      & .icons {
+        text-align: center;
+      }
+    }
+  }
+}
+@media (width < 600px) {
+  .nav {
+    .search {
+      display: none;
+    }
+  }
 }
