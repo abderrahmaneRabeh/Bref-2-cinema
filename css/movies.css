@@ -97,9 +97,6 @@
   }
 }
 
-@media (width < 1000px) {
-}
-
 @media (width < 900px) {
   .popular-movies {
     & .right {
@@ -125,6 +122,7 @@
     }
   }
 }
+
 @media (width < 700px) {
   .popular-movies {
     & .right {
